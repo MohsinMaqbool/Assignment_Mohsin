@@ -1,0 +1,10 @@
+Follow Below Steps to set up the application
+
+
+1- run this command "cp .env.example .env"
+2- then create a databse in mysql and database name,username and password(if any) in .env file
+3- then run command "composer update"
+4- then generate app key by running "php artisan key:generate"
+5- then run "php artisan migrate" to create migration in db
+6- then run "php artisan db:seed"
+7- and finally run the project by running "php artisan serve"
